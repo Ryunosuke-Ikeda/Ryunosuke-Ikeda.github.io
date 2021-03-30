@@ -1,4 +1,5 @@
 
+
 header
 {
   height: 250px;
@@ -13,6 +14,7 @@ header
 {
   text-align: center;
   font-family:"Garamond";
+  
 }
 .c
 {
@@ -22,6 +24,16 @@ header
 }
 
 
+.pic1 img {
+  border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+  width:  200px;       /* ※縦横を同値に */
+  height: 200px;       /* ※縦横を同値に */
+} 
+.pic2 img {
+	border-radius: 20px;
+}
+
+  
 ul{
   display: table;
   margin: 0 auto;
@@ -78,4 +90,3 @@ footer{
   
 }
 
- 
